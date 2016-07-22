@@ -13,7 +13,7 @@ public class TestMethodsAndFlow
 		
 		data.outputSubset(2,1);
 		data.outputSubset(3, 4);
-		data.outputSubset(1, 3);
+		data.outputSubset(0, 3);
 		data.outputSubset(9, 10);
 		
 		
