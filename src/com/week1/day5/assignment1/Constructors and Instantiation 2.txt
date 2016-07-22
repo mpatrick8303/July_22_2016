@@ -1,0 +1,29 @@
+1) new Car()
+   public Car()
+
+2) new Car("Red", 4)
+   public Car(String color, int speed)
+
+3) new Bus(32)
+   public Bus(int Seats)
+
+4) new HotDog("Ketchup", "Mustard")
+   public HotDog(String favCondiment, String 2favCondiment)
+
+5) new Aroma("Bad")
+   public Aroma(String smell)
+
+6) new Behavior(true)
+   public Behavior(boolean goodBehavior)
+
+7) new Assignment(false)
+   public Assignment(boolean pass)
+
+8) new AstronomicalDistance(10, 20)
+   public AstronomicalDistance(int millionsOfMiles,int speed)
+
+9) new DateTime(2016, 07, 22)
+   public DateTime(int year, int month, int dayOfTheWeek)
+
+10) new Assignment("You are done! Go Home!")
+    public Assignment(String status)
