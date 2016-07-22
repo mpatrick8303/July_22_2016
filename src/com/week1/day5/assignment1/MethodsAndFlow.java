@@ -6,6 +6,7 @@ public class MethodsAndFlow
 	private String[] stringArray;
 	
 	
+	
 	public MethodsAndFlow(String[] stringArray)
 	{
 		this.stringArray = stringArray;
@@ -16,7 +17,7 @@ public class MethodsAndFlow
 	{
 		if(stringArray.length >= (startPosition + numberOfValues))
 		{
-			for(int i=startPosition; i<(startPosition+numberOfValues);i++)
+			for(int i=startPosition; i<=(startPosition+numberOfValues);i++)
 			{
 				System.out.println(stringArray[i]);
 			}
@@ -29,12 +30,24 @@ public class MethodsAndFlow
 		}
 	}
 	
-	public void outputAll()
+//	public void outputAll()
+//	{
+//		for(int i=0;i<stringArray.length;i++)
+//		{
+//			System.out.println(stringArray[i]);
+//		}
+//	}
+	
+	public String outputAll()
 	{
-		for(int i=0;i<stringArray.length;i++)
+		String retval = "";
+		for(int i = 0; i < stringArray.length; i++)
 		{
-			System.out.println(stringArray[i]);
+			retval += stringArray[i] + "\n";
 		}
+		
+		return retval;
+		
 	}
 	
 	

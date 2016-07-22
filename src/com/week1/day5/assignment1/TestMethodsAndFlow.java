@@ -12,6 +12,11 @@ public class TestMethodsAndFlow
 		MethodsAndFlow data = new MethodsAndFlow(args);
 		
 		data.outputSubset(2,1);
-		data.outputAll();
+		data.outputSubset(3, 4);
+		data.outputSubset(1, 3);
+		data.outputSubset(9, 10);
+		
+		
+		System.out.println(data.outputAll());
 	}
 }
